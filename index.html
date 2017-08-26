@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="onepage-scroll.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title></title>
+</head>
+<body style="background-color: #E8E8EA">
+<div>
+<nav class="navbar navbar-static-top" style="padding-top: 2vw; padding-bottom: 2vw; margin: 0; padding-right: 3vw; background-color: transparent; ">
+  <div class="container-fluid" style="font-family: 'Playfair Display', serif;">
+    <ul class="nav navbar-nav navbar-right">
+		<li><a href="#" style="border-style: solid; border-width: 1px;"><span class="glyphicon glyphicon-search rt"></span>     Search</a></li>
+		<li><a class="qt" href="#"><span class="strike"><span class="glyphicon glyphicon-minus"></span>      About Us</span></a></li>
+		<li><a href="#"><span class="strike"><span class="glyphicon glyphicon-minus"></span>      Education</span></a></li>
+		<li><a href="#"><span class="strike"><span class="glyphicon glyphicon-minus"></span>      Consumer Service</span></a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-menu-hamburger" style="border-radius: 50%; border-width: 1px; border-style: solid; padding: 5px; margin-top: -5px;"></span></a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div class="main">
+	<section>
+		<div class="container">
+			<div class="col-xs-4"></div>
+			<div class="white col-xs-3">	
+				<div class="tfont textContainer">
+					<p class="big text-right">Why settle<br>for a solitaire</p>
+					<p class="small text-right" style="font-size: 1.5vw;">When you can wear a star</p> 
+				</div> 
+			</div>
+			<div class="col-xs-5 row">
+				<div class="col-xs-5 textContainer"><img class="img-responsive ring" src="ring.png"" ></div>			
+			</div>
+		</div> 
+		<div class="container-fluid" style="margin-top: -2vw;"><a href="#"><img class="img-responsive mes" src="interface.png" style="height: 3vw; width: 3vw; float: right; margin-right: 2vw;"></a></div>
+	</section>
+	<section>
+		<div class="kk container-fluid">
+			<span class="tfont fy">Online Shop</span>
+			<span class="tfont hy">Online Shop</span>
+		</div>
+	</section>
+</div>
+
+<script type="text/javascript">
+	$(".main").onepage_scroll({
+   sectionContainer: "section",     
+   easing: "ease",                  
+   animationTime: 1000,            
+   pagination: true,                
+   updateURL: false,                
+   beforeMove: function(index) {},  
+   afterMove: function(index) {},   
+   loop: false,                     
+   keyboard: true,                  
+   responsiveFallback: false,        
+   direction: "vertical"            
+});
+</script>
+</body>
+</html>
