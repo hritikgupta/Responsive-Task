@@ -43,6 +43,8 @@
 
 .mes{
 	-webkit-filter: drop-shadow(0px 5px 5px black);
+  max-width: 90%;
+  max-height: auto;
 }
 
 .ring{
